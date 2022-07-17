@@ -7,6 +7,9 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to bottom right, red, yellow, green);
+  background-repeat: no-repeat;
+  height: 1000px;
 }
 
 .topnav {
@@ -59,12 +62,30 @@ body {
     text-align: left;
   }
 }
+  
+.logo {
+  overflow: hidden;
+  background-color: purple;
+}
+
+.logo h1 {
+  float: center;
+  display: block;
+  color: yellow;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  }
 </style>
 </head>
 <body>
 
+<div class="logo">
+<h1>One Future Unified Team Forum</h1>
+</div>
 <div class="topnav" id="myTopnav">
-<a href="/Forum/index.html" style="float:left;color:cyan;">Forum Home</a>
+<a href="/Forum/index.html">Home</a>
   <a href="/Forum/about.html">About</a>
   <a href="/Forum/contact.html">Contact</a>
   <a href="/Forum/newsletter.html">Newsletter</a>
@@ -74,8 +95,8 @@ body {
   </a>
 </div>
 
-<div style="padding:16px;color:green;">
-</div>
+<div style="background-color: green;padding:1px;color: yellow;">
+  </div>
 
 <script>
 function myFunction() {
